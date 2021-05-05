@@ -6,8 +6,8 @@ import subprocess
 import sys
 
 server = "irc.freenode.net"
-channel = "#IrcB0ts741258963"
-nick = "B0t1"
+channel = "#xbdm"
+nick = "Bot1"
 
 def run_command(command):
         output = ''
