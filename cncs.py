@@ -89,7 +89,7 @@ while 1:
 			while True:
 		
 				try:
-					command = raw_input("\ncommnd$control> ")
+					command = raw_input("\ncc> ")
 					#command = sys.stdin.readline()
 					if command == "exit":
 						print "[!] Exiting..!"
