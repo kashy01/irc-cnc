@@ -7,7 +7,7 @@ import sys
 
 server = "irc.freenode.net"
 channel = "#xbdm"
-nick = "Bot1"
+nick = "Bot"
 
 def run_command(command):
         output = ''
