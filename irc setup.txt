@@ -9,3 +9,5 @@
 5. prefix is CMD#:
 
 ALL DONE!
+
+Also you can custom name and channel in irc.py
