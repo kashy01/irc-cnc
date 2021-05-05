@@ -4,4 +4,8 @@
 
 3. channel type #IrcB0ts741258963
 
+4. click start
+
+5. prefix is CMD#: command
+
 ALL DONE!
