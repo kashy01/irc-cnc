@@ -1,0 +1,5 @@
+1. python irc.py
+
+2. goto https://webchat.freenode.net/
+
+3. channel type #IrcB0ts741258963
