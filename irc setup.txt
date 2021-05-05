@@ -2,7 +2,7 @@
 
 2. goto https://webchat.freenode.net/
 
-3. channel type #IrcB0ts741258963
+3. channel type #xbdm
 
 4. click start
 
