@@ -18,8 +18,8 @@ print """
 5. Close (Close current session)
 6. Exit
 """	
-ip_addr = raw_input("cc> set lhost: ")
-port = int(raw_input("\ncc> set lport: "))
+ip_addr = raw_input("cnc> set lhost: ")
+port = int(raw_input("\ncnc> set lport: "))
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.settimeout(5)
@@ -57,7 +57,7 @@ def close_connection():
 	
 while 1:
  
-	input = raw_input("\ncc> ")
+	input = raw_input("\ncnc> ")
 
 	if (input == "Accept" or input == "accept"):
  	
@@ -89,7 +89,7 @@ while 1:
 			while True:
 		
 				try:
-					command = raw_input("\ncc> ")
+					command = raw_input("\nconnected~cnc> ")
 					#command = sys.stdin.readline()
 					if command == "exit":
 						print "[!] Exiting..!"
