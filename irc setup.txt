@@ -6,6 +6,6 @@
 
 4. click start
 
-5. prefix is .
+5. prefix is CMD#:
 
 ALL DONE!
