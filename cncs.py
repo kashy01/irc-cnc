@@ -57,7 +57,7 @@ def close_connection():
 	
 while 1:
  
-	input = raw_input("\nconnected~cnc > ")
+	input = raw_input("\ncnc > ")
 
 	if (input == "Accept" or input == "accept"):
  	
@@ -89,7 +89,7 @@ while 1:
 			while True:
 		
 				try:
-					command = raw_input("\ncnc> ")
+					command = raw_input("\nconnected~cnc > ")
 					#command = sys.stdin.readline()
 					if command == "exit":
 						print "[!] Exiting..!"
